@@ -12,7 +12,7 @@ const card = new Card();
 
 const api = new Api({
     //Можно лучше: Важные данные, такие как ключ и ip адрес, изменение которых может легко сломать код, принято выносить в константы. Константы Именуются snack кейсом в верхнем регистре. EXAMPLE_VARIABLE. Так другие разработчики будут знать, что изменять эти данные нельзя.
-    url: "http://praktikum.tk/cohort6",
+    url: "https://praktikum.tk/cohort6",
     headers: {
         authorization: '7ceba2bd-b16c-4485-905f-e1584b27ca55',
         "Content-Type": "application/json"
